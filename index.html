@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+    <img class="logo" src="https://www.ddoliservicos.com.br/wp-content/uploads/2021/02/ilustracao-profissionais-de-limpeza.png">
+
+    <h1 style="text-align: center;">Faxina</h1>
+    
+    <hr><br>
+
+    <div id="tabela">
+    <form method="get" action="#">
+
+        <table border="1">
+
+            <tr>
+                <th>Nome completo:</th>
+
+                <td><input type="text" id="nome" placeholder="Nome"></td>
+                <td><input type="text" id="sobrenome" placeholder="Sobrenome"></td>
+
+
+            </tr>
+
+            <tr>
+                <th>E-mail:</th>
+
+                <td colspan="2"><input type="email" id="email" placeholder="Email" style="width: 98%;"></td><br>
+
+                
+            </tr>
+
+            <tr>
+                <th>Telefone:</th>
+
+                <td colspan="2"><input type="tel" id="telefone" placeholder="Telefone" style="width: 98%;"></td>
+
+
+            </tr>
+
+            <tr>
+                <th>Escolha um ou mais comodos:</th>
+                <td colspan="2">
+
+                    <input type="checkbox" id="quarto">
+                    <label for="quarto">Quarto</label><br>
+
+                    <input type="checkbox" id="sala">
+                    <label for="sala">Sala</label><br>
+
+                    <input type="checkbox" id="cozinha">
+                    <label for="cozinha">Cozinha</label><br>
+
+                    <input type="checkbox" id="garagem">
+                    <label for="garagem">Garagem</label><br>
+
+                    <input type="checkbox" id="banheiro">
+                    <label for="banheiro">Banheiro</label><br>
+
+                    <input type="checkbox" id="outros">
+                    <label for="outros">Outros</label><br>
+                
+                </td>
+
+            </tr>
+
+            <tr>
+                
+                <th>Sexo:</th>
+
+            <td colspan="2">
+                    
+                <input type="radio" id="masculino" name="fav_language">
+                <label for="masculino">Masculino</label>
+
+                <input type="radio" id="feminino" name="fav_language">
+                <label for="feminino">Feminino</label>
+
+            </td>
+
+            </tr>
+
+
+            <tr>
+
+                <th>Observações:</th>
+            <td colspan="2">
+
+                <textarea name="observacoes" id="observacoes" cols="42" rows="10"></textarea>
+
+            </td>
+             </tr>   
+
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">
+                    
+                <input type="submit" id="enviar" value="Enviar">
+                <input type="reset" id="excluir" value="Excluir">
+
+            </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    </form>
+</body>
+</html>
